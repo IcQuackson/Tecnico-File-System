@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The ultimate goal of the project is to develop a user-level file system (File System, FS) that stores its contents in primary memory. This file system is called TecnicoFS. User-level file systems have gained significant relevance recently as they allow for rapid development of easily portable file systems with strong fault isolation, as discussed in the theoretical classes during the semester.
+The ultimate goal of the project is to develop a user-level file system (File System, FS) that stores its contents in primary memory. This file system is called TecnicoFS. User-level file systems have gained significant relevance recently as they allow for rapid development of easily portable file systems with strong fault isolation.
 
 In a user-level file system, the file system functionalities are provided by a server process that runs in user mode. Other processes can invoke file system functions by making requests to the operating system kernel, which then forwards these requests to the file system server process through an established communication channel. Subsequently, the return value of the function is sent back to the invoking client through the reverse path.
 
