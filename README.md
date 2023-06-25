@@ -1,3 +1,3 @@
-# Projeto_SO 2020/2021
+# Tecnico File System
 
-O objetivo final do projeto é desenvolver um sistema de ficheiros (File System, FS) em modo utilizador (user-level) e que mantém os seus conteúdos em memória primária, chamado TecnicoFS.
+The ultimate goal of the project is to develop a user-level file system (File System, FS) that stores its contents in primary memory. The file system is called TecnicoFS.
