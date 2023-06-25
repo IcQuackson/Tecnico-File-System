@@ -16,7 +16,6 @@ The goal of this exercise is to extend the solution developed in the first exerc
 
 - Fine synchronization of inodes to allow greater parallelism between commands that do not conflict.
 - Incremental execution of commands while the input file is loaded in parallel.
-- Support for a new operation (not specified in this PDF).
 - Use of mutexes, read-write locks, and condition variables for synchronization.
 - Avoidance of busy waiting as much as possible.
 
