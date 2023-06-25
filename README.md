@@ -19,3 +19,9 @@ The goal of this exercise is to extend the solution developed in the first exerc
 - Support for a new operation (not specified in this PDF).
 - Use of mutexes, read-write locks, and condition variables for synchronization.
 - Avoidance of busy waiting as much as possible.
+
+## Exercise 3
+- Communication with client processes is done through a Unix datagram socket.
+- The server TecnicoFS no longer loads commands from a file but receives and responds to operation requests from other processes.
+- Synchronization is required to ensure that a slave task waits for ongoing operations to finish before safeguarding the system's content to the output file.
+- The project includes a TecnicoFS server and a client library called tecnicofs-client-api.
